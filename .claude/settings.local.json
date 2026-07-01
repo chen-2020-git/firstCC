@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(python -c \"import tkinter; print\\('tkinter OK'\\)\")",
+      "PowerShell(pip install *)",
+      "PowerShell(python D:\\\\developer_code\\\\firstCC\\\\extract_colors.py 2>&1)",
+      "PowerShell(python -c \"import py_compile; py_compile.compile\\('pomodoro.py', doraise=True\\); print\\('Compile OK ✅'\\)\")",
+      "PowerShell(python -c \"import py_compile; py_compile.compile\\('pomodoro.py', doraise=True\\); print\\('Compilation successful'\\)\")",
+      "PowerShell(winget *)"
+    ]
+  }
+}
