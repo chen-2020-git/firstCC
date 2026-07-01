@@ -6,7 +6,8 @@
       "PowerShell(python D:\\\\developer_code\\\\firstCC\\\\extract_colors.py 2>&1)",
       "PowerShell(python -c \"import py_compile; py_compile.compile\\('pomodoro.py', doraise=True\\); print\\('Compile OK ✅'\\)\")",
       "PowerShell(python -c \"import py_compile; py_compile.compile\\('pomodoro.py', doraise=True\\); print\\('Compilation successful'\\)\")",
-      "PowerShell(winget *)"
+      "PowerShell(winget *)",
+      "PowerShell($env:Path = [Environment]::GetEnvironmentVariable\\(\"Path\", \"Machine\"\\) + \";\" + [Environment]::GetEnvironmentVariable\\(\"Path\", \"User\"\\); cd D:\\\\developer_code\\\\firstCC; git status)"
     ]
   }
 }
